@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3D Three.js Demo 2025
+
+A Next.js project showcasing Three.js 3D graphics with interactive 3D objects and orbit controls.
+
+## Features
+
+- Interactive 3D scene with rotating objects
+- Orbit controls for camera manipulation
+- Responsive canvas that adapts to window size
+- Multiple 3D objects (Dodecahedron and Box)
+- Dynamic lighting and materials
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -10,13 +30,31 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the 3D scene.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+
+- `src/app/page.tsx` - Main page with basic Three.js setup
+- `src/app/ReactTestDemo/page.tsx` - Demo page with interactive 3D objects and orbit controls
+
+## Controls
+
+- Left Mouse Button: Rotate camera
+- Right Mouse Button: Pan camera
+- Mouse Wheel: Zoom in/out
+
+## Technologies Used
+
+- Next.js 14
+- Three.js
+- TypeScript
+- React
+
+## Development
+
+You can start editing the pages by modifying the files in the `src/app` directory. The page auto-updates as you edit the files.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
