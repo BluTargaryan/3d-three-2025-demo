@@ -12,14 +12,17 @@
     "@react-three/drei": "^10.0.5",
     "@react-three/fiber": "^9.1.1",
     "@types/three": "^0.175.0",
+    "leva": "^0.10.0",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
+    "react-responsive": "^10.0.1",
     "three": "^0.175.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@react-three/eslint-plugin": "^0.1.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
